@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Goalie1
+comment0.text=\n\ Write\ a\ description\ of\ class\ Paddle\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=b
+comment1.target=Goalie1(Ball)
+comment2.params=
+comment2.target=boolean\ atToporBottom()
+comment3.params=
+comment3.target=void\ act()
+comment3.text=x\n\ Act\ -\ do\ whatever\ the\ Paddle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment4.params=
+comment4.target=void\ move()
+comment5.params=
+comment5.target=void\ detectCollision()
+comment5.text=\n\ Allows\ the\ movement\ of\ Paddle.\n
+numComments=6

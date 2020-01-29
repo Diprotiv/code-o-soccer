@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Goalie2
+comment0.text=\n\ Write\ a\ description\ of\ class\ Paddle\ here.\n\ \n\ @author\ Justin\ Durbin\ \n\ @version\ 2013\n
+comment1.params=leftcounter
+comment1.target=Goalie2(LeftCounter)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Paddle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=boolean\ atTopOrBottom()
+comment3.text=\n\ test\ if\ the\ ball\ is\ at\ the\ top\ or\ the\ bottom\n
+comment4.params=
+comment4.target=void\ checkKeys()
+comment4.text=\n\ Allows\ the\ movement\ of\ Paddle.\n
+comment5.params=
+comment5.target=void\ detectCollision()
+numComments=6

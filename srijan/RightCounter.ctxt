@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=RightCounter
+comment0.text=\n\ A\ simple\ counter\ with\ graphical\ representation\ as\ an\ actor\ on\ screen.\n\ \n\ @author\ mike\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=RightCounter()
+comment1.text=\n\ Create\ a\ new\ counter,\ initialised\ to\ 0.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Animate\ the\ display\ to\ count\ up\ (or\ down)\ to\ the\ current\ target\ value.\n
+comment3.params=score
+comment3.target=void\ add(int)
+comment3.text=\n\ Add\ a\ new\ score\ to\ the\ current\ counter\ value.\n
+comment4.params=
+comment4.target=int\ getValue()
+comment4.text=\n\ Return\ the\ current\ counter\ value.\n
+comment5.params=newValue
+comment5.target=void\ setValue(int)
+comment5.text=\n\ Set\ a\ new\ counter\ value.\n
+comment6.params=
+comment6.target=void\ updateImage()
+comment6.text=\n\ Update\ the\ image\ on\ screen\ to\ show\ the\ current\ value.\n
+numComments=7
