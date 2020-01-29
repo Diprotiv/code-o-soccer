@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.target=Goalie1
+comment0.target=Player
 comment0.text=\n\ Write\ a\ description\ of\ class\ Paddle\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=b
-comment1.target=Goalie1(Ball)
+comment1.target=Player(Ball)
 comment2.params=
 comment2.target=boolean\ atToporBottom()
 comment3.params=

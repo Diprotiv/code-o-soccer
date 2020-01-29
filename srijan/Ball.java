@@ -116,22 +116,9 @@ public class Ball extends Actor
     }
 
     public void detectPaddle() {
-        Goalie1 rightPaddle = (Goalie1) getOneIntersectingObject(Goalie1.class);
-        Goalie2 leftPaddle = (Goalie2) getOneIntersectingObject(Goalie2.class);
-        if (rightPaddle!= null) {
-            collide(rightPaddle);
-            /*
-            deltaX = -deltaX;
-            int offset = getY() - rightPaddle.getY();
-            deltaY = deltaY + offset/10;
-            */
-        }
-
-        if (leftPaddle!= null) {
-            deltaX = -deltaX;
-            int offset = getY() - leftPaddle.getY();
-            deltaY = deltaY + offset/10;
-        }
+        for (Player p : getIntersectingObjects(Player.class)) {
+            collide(p);
+        }    
     }
 
     public boolean atGoal() {
@@ -152,7 +139,7 @@ public class Ball extends Actor
         Greenfoot.stop();
     }
     
-    public void collide(Goalie1 paddle) {
+    public void collide(Player paddle) {
         int dy = paddle.getX() - getX();
         int dx = paddle.getY() - getY();
         double d = Math.sqrt(dx * dx + dy * dy);

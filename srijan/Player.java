@@ -6,12 +6,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Goalie1 extends Actor {  
+public class Player extends Actor {  
     public Ball ball;
     public double deltaX, deltaY;
     public int diameter = 51;
     // private int diameter = imageWidth;
-    public Goalie1(Ball b) {
+    public Player(Ball b) {
         ball = b;
     }
     public boolean atToporBottom() {
@@ -43,7 +43,7 @@ public class Goalie1 extends Actor {
  
 
     public void detectCollision() {
-        Goalie1 another = (Goalie1) getOneIntersectingObject(Goalie1.class);
+        Player another = (Player) getOneIntersectingObject(Player.class);
         if(another == null) {
             return;
         }

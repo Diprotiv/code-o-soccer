@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Defender extends Goalie1
+public class Defender extends Player
 {
     /**
      * Act - do whatever the Defender wants to do. This method is called whenever
